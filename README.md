@@ -18,13 +18,12 @@ A Python script to predict cryptocurrency prices using pre-trained LSTM models.
    cd crypto-price-predictor
 2. Install dependencies:
    ```bash
-  pip install -r requirements.txt
+   pip install -r requirements.txt
 
 ## Usage
 Run the script and specify the model using the --powerful flag (optional):
    ```bash
-  python predict.py [--powerful]
-
+    python predict.py [--powerful]
 
 --powerful: Use the powerful model (36 pairs, 4 LSTM layers with 150 units). If not specified, the default model (21 pairs, 3 LSTM layers with 100 units) is used.
 
