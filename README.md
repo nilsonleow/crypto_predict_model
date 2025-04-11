@@ -15,7 +15,7 @@ A Python script to predict cryptocurrency prices using pre-trained LSTM models.
 1. Clone the repository:
    ```bash
    git clone https://github.com/nilsonleow/crypto_predict_model.git
-   cd crypto-price-predictor
+   cd crypto_predict_model
 2. Install dependencies:
    ```bash
    pip install -r requirements.txt
